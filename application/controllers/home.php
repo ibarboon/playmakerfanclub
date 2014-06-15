@@ -13,7 +13,6 @@ class Home extends CI_Controller {
 		$params['social_network'] = $this->option_model->get_option_by_type('social_network');
 		$params['content'] = $this->content_model->get_content_by_view($params['current_view']);
 		$params['content']['team_list'] = $this->team_model->get_team_list(array(0, 4));
-// 		echo '<pre>'; print_r($params['content']['team_list']); echo '</pre>';
 		$this->load->view('header_view', $params);
 		$this->load->view('home_view', $params);
 		$this->load->view('footer_view', $params);
