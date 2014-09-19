@@ -37,12 +37,10 @@
 | in the URL cannot be matched to a valid route.
 |
 */
-$route['user/register'] = 'user/register';
-$route['user/sign-in'] = 'user/signin';
-$route['user/sign-in/(:any)'] = 'user/signin';
-$route['user/sign-out'] = 'user/signout';
-$route['default_controller'] = 'home';
+
+$route['default_controller'] = "welcome";
 $route['404_override'] = '';
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
