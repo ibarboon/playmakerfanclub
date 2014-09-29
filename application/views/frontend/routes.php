@@ -4,7 +4,6 @@ $route['home'] = 'frontend/home';
 $route['(playmaker-academy|rate-and-promotion)'] = 'frontend/home/content';
 $route['(league-and-tournament|new-and-event)'] = 'frontend/home/list_content';
 $route['contact-us'] = 'frontend/home/contact_us';
-$route['default_controller'] = 'frontend/home';
 $route['404_override'] = '';
 
 /* End of file routes.php */
